@@ -22,5 +22,4 @@ function test() {
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
-![Display Wall](http://3.bp.blogspot.com/--h2Lx_5I9MA/UUvrHCc3IyI/AAAAAAAAElc/fonAOf81bWo/s1600/redone.png "Display Wall")
-
+![Display Wall](project_images/cover.jpg?raw=true "Display Wall")
