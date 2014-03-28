@@ -1,7 +1,8 @@
 {
     "technologies": {
         "apis": [
-            "Google Chrome Packaged Apps, chrome.app.runtime.*, chrome.app.window"
+            "Google Chrome Packaged Apps API",
+            "JavaScript Canvas"
         ],
         "platforms": [
             "Google Chrome"
