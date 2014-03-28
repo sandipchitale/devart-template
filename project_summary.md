@@ -14,7 +14,11 @@ Simply load the
 
 [project_code/DisplayWall](project_code/DisplayWall)
 
-as unpacked extension in Chrome Browser using [these](http://developer.chrome.com/extensions/getstarted#unpacked) instructions.
+as unpacked extension in Chrome Browser using 
+
+[these](http://developer.chrome.com/extensions/getstarted#unpacked) 
+
+instructions.
 
 ## Example Code
 Here is how the panels are created:
