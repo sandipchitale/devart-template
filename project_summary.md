@@ -10,6 +10,11 @@ A random tile generation could be used to create a dynamic modern art wall paper
 
 ## Link to Prototype
 
+Simply load the
+
+[project_code/DisplayWall](project_code/DisplayWall)
+
+as unpacked extension in Chrome Browser using [these](http://developer.chrome.com/extensions/getstarted#unpacked) instructions.
 
 ## Example Code
 NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
