@@ -1,1 +1,1 @@
-Implement panel.js and panel.html
+Implement panel.js and panel.html.
