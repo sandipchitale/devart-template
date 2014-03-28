@@ -17,7 +17,7 @@ function test() {
 }
 ```
 ## Links to External Libraries
- None.
+ External libraries not used by this project.
 
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
