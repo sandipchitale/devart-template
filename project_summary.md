@@ -17,12 +17,56 @@ Simply load the
 as unpacked extension in Chrome Browser using [these](http://developer.chrome.com/extensions/getstarted#unpacked) instructions.
 
 ## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
+Here is how the panels are created:
 ```
-function test() {
-  console.log("Printing a test");
+var panels = [];
+function showPanel(w, h, left, top) {
+    var createOptions = {
+        'width' : w,
+        'minWidth' : w,
+        'maxWidth' : w,
+        'height' : h,
+        'minHeight' : h,
+        'maxHeight' : h,
+        'frame' : 'none'
+    };
+    
+    if (left) {
+        createOptions.left = left;
+    }
+    if (top) {
+        createOptions.top = top;
+    }
+    
+    chrome.app.window.create('panel.html', createOptions, function(panel) {
+        panels.push(panel);
+        var focusing = false;
+        panel.contentWindow.onfocus = function() {
+            if (focusing) {
+                return;
+            }
+            focusing = true;
+            for (var i = 0; i < panels.length; i++) {
+                if (panels[i].contentWindow.CLOSED === true) {
+                    var index = panels.indexOf(panels[i]);
+                    if(index!=-1){
+                       panels.splice(index, 1);
+                    }
+                } else {
+                    panel[i].focus();
+                }
+            }
+            focusing = false;
+        }
+    });
 }
 ```
+
+The code tow draw the canvas is here:
+
+- [project_code/DisplayWall/panel.html](project_code/DisplayWall/panel.html)
+- [project_code/DisplayWall/panel.js](project_code/DisplayWall/panel.js)
+
 ## Links to External Libraries
  External libraries not used by this project.
 
