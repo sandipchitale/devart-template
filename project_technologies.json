@@ -1,16 +1,17 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "Google Chrome Packaged Apps, chrome.app.runtime.*, chrome.app.window"
         ],
         "platforms": [
-            "insert platforms"
+            "Google Chrome"
         ],
         "toolkits": [
-            "insert toolkits"
+            "JavaScript Canvas"
         ]
     },
     "themes": [
-        "insert themes"
+        "Creativity",
+        "Interactive Art"
     ]
 }
