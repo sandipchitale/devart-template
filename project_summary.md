@@ -4,7 +4,9 @@
 - Sandip Chitale, sandipchitale
 
 ## Description
-This is simple Google Chrome Packaged app that lets you generate your own modern art desktop display wall 
+This is simple Google Chrome Packaged app that lets you generate your own modern art desktop display wall. The idea is to use it as initial display before your main presentation starts. You can reveal only parts of the desktop to peek viewers intrest. Subsequently you can close Display Wall tiles one by one by clicking in the center and revealing the main presentation.
+
+A random tile generation could be used to create a dynamic modern art wall paper for your desktop.
 
 ## Link to Prototype
 
