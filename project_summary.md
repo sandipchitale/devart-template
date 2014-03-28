@@ -71,6 +71,5 @@ The code tow draw the canvas is here:
  External libraries not used by this project.
 
 ## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
 ![Display Wall](project_images/cover.jpg?raw=true "Display Wall")
