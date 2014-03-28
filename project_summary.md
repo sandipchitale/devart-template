@@ -23,6 +23,8 @@ as unpacked extension in Chrome Browser using
 
 instructions.
 
+[A web based example](http://sandips-chrome-apps.googlecode.com/git/DisplayWall/embed.html)
+
 ## Example Code
 Here is how the panels are created:
 ```
