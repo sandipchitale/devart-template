@@ -1,1 +1,1 @@
-Implement background.js and background.html
+Implement background.js and background.html.
