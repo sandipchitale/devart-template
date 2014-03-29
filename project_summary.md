@@ -13,6 +13,8 @@ When the packaged app is launched it starts with one display tile. The tile show
 
 ## Link to Prototype
 
+[Display Wall on Chrome Web Store](https://chrome.google.com/webstore/detail/display-wall-app/pbhfbbppdkhincmlcmonehdioopcgkmj?hl=en-US)
+
 Simply load the
 
 [project_code/DisplayWall](project_code/DisplayWall)
