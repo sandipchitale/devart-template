@@ -45,8 +45,6 @@ function doLayout() {
     canvas.style.height = (document.documentElement.clientHeight) + 'px';
 }
 
-// Code below is based on http://www.efeion.com/canvastest/balls1.js
-
 var WIDTH;
 var HEIGHT;
 var g;
